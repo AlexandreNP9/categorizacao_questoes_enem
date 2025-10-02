@@ -35,3 +35,18 @@ Em desenvolvimento 🚧
 Ampliar automações para reduzir o trabalho manual.  
 Criar uma interface de pesquisa sobre o banco de questões.  
 Explorar métodos alternativos de OCR e classificação.  
+
+# ESPECIFICADES TÉCNICAS
+## programas e bibliotecas utilziadas
+python  
+gthumb  
+os  
+pdf2image  
+pillow  
+
+## variáveis de ambiente
+trabalhando no linux, precisei utilizar variáveis de ambiente para usar a biblioteca pdf2image
+
+python3 -m venv venv  
+source venv/bin/activate  
+pip3 install pdf2image  
