@@ -1,3 +1,8 @@
+"""
+Propósito: Remover a bordinha interna que fica entre as colunas
+Autor: ALexandre Nassar de Peder
+Data: 02/10/2025
+"""
 from PIL import Image
 import os
 

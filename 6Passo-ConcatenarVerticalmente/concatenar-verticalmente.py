@@ -1,9 +1,17 @@
+"""
+Propósito: concatenas verticalmente as imagens de cada pasta vinda do passo 5
+Autor: Alexandre Nassar de Peder
+Data: 02/10/2025
+Comentários: atualizar as linhas 12 e 13 para cada pasta
+Comnetário 2: não fazer para a página 15, 19 e 28. Só criar a pasta manualmente e adicionar a imagem.
+"""
+
 from PIL import Image
 import os
 import re
 
-pasta_imagens = "29a31"
-pasta_saida = "29a31Concatenadas"
+pasta_imagens = "paginas-29a31"
+pasta_saida = "29a31"
 os.makedirs(pasta_saida, exist_ok=True)
 
 # Função para extrair o número da página e ordenar corretamente

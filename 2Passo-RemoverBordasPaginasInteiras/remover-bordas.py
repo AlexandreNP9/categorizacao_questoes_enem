@@ -1,3 +1,10 @@
+"""
+Propósito: remover as bordas das páginas completas. Tive que contar pixels.
+Autor: Alexandre Nassar de Peder
+Data: 02/10/2025.
+Comentários: pode excluir a pagina_enem_1.png porque é a capa, e o pagina_enem_32.png porque é o rascunho da redação
+"""
+
 from PIL import Image
 import os
 

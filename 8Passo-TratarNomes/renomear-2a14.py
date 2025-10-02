@@ -1,3 +1,9 @@
+"""
+Propósito: renomear as questões das páginas 2 a 14. É um código diferente porque as 5 primeiras questões são de espanhol, e mais 5 de inglês, e entao vai para a questão 6 em diante
+Autor: Alexandre Nassar de Peder
+Data: 02/10/2025
+"""
+
 import os
 
 def renomear_questoes_simples():
@@ -23,7 +29,7 @@ def renomear_questoes_simples():
         mapeamento[antigo] = novo
     
     # Questões normais: parte_001 a parte_012 -> questao-6 a questao-34
-    for i in range(1, 12):
+    for i in range(12, 41):
         antigo = f"parte_{i:03d}.png"
         novo = f"questao-{i-6}.png"
         mapeamento[antigo] = novo

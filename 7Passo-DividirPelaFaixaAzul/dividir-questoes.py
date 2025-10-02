@@ -1,3 +1,10 @@
+"""
+Propósito: Dividir as questões concatenadas verticalmente pela faixa azul de início da questão
+Autor: Alexandre Nassar de Peder
+Data: 02/10/2025
+Comentário: atualizar as linhas 122 e 123
+"""
+
 from PIL import Image
 import os
 
@@ -112,7 +119,7 @@ def dividir_imagem_por_faixas(caminho_imagem, pasta_saida, cor_alvo=(64, 193, 24
 # Exemplo de uso
 if __name__ == "__main__":
     # Configurações
-    caminho_imagem = "./as-5-imagens/29a31.png"  # Substitua pelo caminho da sua imagem
+    caminho_imagem = "29a31.png"  # Substitua pelo caminho da sua imagem
     pasta_saida = "questoes-paginas-29a31"
     
     # Converte a cor do GIMP (25.1, 75.7, 95.3) para RGB (0-255)

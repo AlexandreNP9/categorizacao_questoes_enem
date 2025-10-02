@@ -1,3 +1,11 @@
+"""
+Propósito: Cortar as imagens ao meio. As imagens já estão sem as bordas externas, agora só cortar ao meio
+Autor: Alexandre Nassar de Peder
+Data: 02/10/2025
+Comentários: Ao cortar ao meio, vai gerar uma bordinha interna. 
+Comentário 2: nesse caderno de 2024, as páginas 15, 19 (proposta de redação) e 28 não são divididas em colunas. Se atentar porque esse detalhe é importante para o passo 5
+"""
+
 from PIL import Image
 import os
 

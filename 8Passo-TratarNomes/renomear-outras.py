@@ -1,3 +1,10 @@
+"""
+Propósito: Renomear as imagens do padrão parte_0xx.png para questao-xx.png
+Autor: Alexandre Nassar de Peder
+Data: 02/10/2025
+Comentário 1: atualizar as linhas 11, 20 (comentário para entender a lógica), 21, 22 e 23
+Comentário 2: geralmente, as imagens parte_001.png das pastas é um lixinho
+"""
 import os
 
 def renomear_questoes_simples():
@@ -11,7 +18,7 @@ def renomear_questoes_simples():
     mapeamento = {}
         
     # Questões normais: parte_002 a parte_032 -> questao-46 a questao-76
-    for i in range(1, 12):
+    for i in range(2, 12+1):
         antigo = f"parte_{i:03d}.png"
         novo = f"questao-{i+78}.png"
         mapeamento[antigo] = novo
